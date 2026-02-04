@@ -21,7 +21,8 @@ public class AppMain {
 
 		computer.compMethod();
 		calculater.calMethod();
-
+		
+  ((AnnotationConfigApplicationContext)applicationContext).close();
 	}
 
 }
